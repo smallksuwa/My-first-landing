@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 16px; }
+
+.wrapper {
+  max-width: 1920px;
+  margin: auto;
+  font-weight: 300; }
+
+html, body {
+  font-family: "Roboto Light"; }
+
+.section1 {
+  height: 66px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative; }
+  .section1 span {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #b71810;
+    position: absolute;
+    top: 29%;
+    right: 26.8%; }
+  .section1 img {
+    height: 28px;
+    position: absolute;
+    top: 24%;
+    left: 25%; }
+
+.main-section {
+  height: 474px;
+  width: 100%;
+  background-image: url("images/fon.gif");
+  background-size: 101% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative; }
+  .main-section h1 {
+    font-size: 4rem;
+    letter-spacing: 0.9px;
+    width: 100%;
+    position: absolute;
+    top: 14.5%;
+    left: 50%;
+    transform: translate(-50%); }
+  .main-section h2:first-of-type {
+    font-size: 1.875rem;
+    width: 100%;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%); }
+  .main-section h2:last-of-type {
+    font-size: 1.875rem;
+    width: 100%;
+    position: absolute;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%); }
+
+.upper {
+  text-transform: uppercase;
+  font-size: 1.875rem; }
+
+.big-sale {
+  font-size: 3.75rem; }
+
+.button {
+  width: 322px;
+  height: 60px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: -3px;
+  right: 0;
+  margin: 324px auto;
+  border-radius: 2px; }
+  .button a {
+    text-decoration: none;
+    font-size: 1.875rem;
+    line-height: 56px;
+    color: #b71810;
+    text-align: center; }
+
+.section3 {
+  position: relative;
+  height: 923px;
+  width: 100%; }
+  .section3 h2 {
+    color: #1c6786;
+    font-size: 1.875rem;
+    text-align: center;
+    line-height: 126%;
+    width: 100%;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%); }
+  .section3 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 1.375rem;
+    letter-spacing: -0.12px;
+    position: absolute;
+    top: 19.5%;
+    left: 50%;
+    transform: translate(-50%); }
+
+.buttons-menu {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  top: 28.5%;
+  left: 50%;
+  transform: translate(-50%); }
+  .buttons-menu div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 320px;
+    height: 370px; }
+  .buttons-menu p {
+    text-align: left;
+    margin: auto; }
+  .buttons-menu img {
+    height: 150px;
+    margin: auto; }
+  .buttons-menu .about {
+    font-size: 1.375rem;
+    color: #1c6786;
+    align-self: flex-start; }
+  .buttons-menu .button-time {
+    margin: 0 -8%; }
+  .buttons-menu > .button-time > .about::after, .buttons-menu > .button-economy > .about::after {
+    content: 'bbb';
+    visibility: hidden; }
+
+.present {
+  width: 985px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 77.6%;
+  left: 50%;
+  transform: translate(-50%); }
+  .present div {
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start; }
+  .present h4 {
+    font-size: 2rem;
+    line-height: 70px;
+    color: #000;
+    text-align: left; }
+  .present p {
+    font-size: 1.4375rem;
+    color: #1c6786; }
+    .present p:first-of-type {
+      line-height: 20px; }
+  .present img {
+    height: 150px;
+    margin: auto; }
+  .present .text {
+    flex-grow: 2;
+    margin-left: 2%; }
+    .present .text::after {
+      content: "";
+      width: 0; }
+
+.section4 {
+  width: 100%;
+  height: 823px;
+  background: #f5f5f5;
+  position: relative; }
+  .section4 h3 {
+    position: absolute;
+    top: 6.9%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 1.875rem; }
+  .section4 .price-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%); }
+    .section4 .price-menu > div {
+      width: 300px;
+      height: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 5px;
+      margin: 0 2%; }
+    .section4 .price-menu .free {
+      margin: 0 -10%; }
+    .section4 .price-menu .top-text {
+      width: 300px;
+      height: 180px;
+      background: #c0362f;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 5px 5px 0 0;
+      margin-top: -34px; }
+      .section4 .price-menu .top-text .upper {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 6%; }
+      .section4 .price-menu .top-text p {
+        font-size: 0.9375rem;
+        text-align: left;
+        font-weight: 300; }
+    .section4 .price-menu .bottom-text {
+      color: #c0362f;
+      text-align: center;
+      margin-top: -20px; }
+      .section4 .price-menu .bottom-text p {
+        font-size: 1.25rem; }
+      .section4 .price-menu .bottom-text .prices {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end; }
+      .section4 .price-menu .bottom-text .price-old {
+        font-size: 1.75rem;
+        display: inline;
+        color: #c9c7c7;
+        text-decoration: line-through; }
+        .section4 .price-menu .bottom-text .price-old .low {
+          font-size: 0.875rem; }
+      .section4 .price-menu .bottom-text .price-new {
+        font-size: 3.25rem;
+        display: inline;
+        color: #000; }
+        .section4 .price-menu .bottom-text .price-new .low {
+          font-size: 1rem; }
+    .section4 .price-menu .present-vacantion {
+      display: inline-block;
+      margin: 0 50px;
+      margin-top: -40px;
+      color: #c0362f;
+      font-size: 1.1875rem; }
+      .section4 .price-menu .present-vacantion img {
+        margin: -2% 0; }
+    .section4 .price-menu .button-order {
+      background: #c0362f;
+      padding: 14px 14px;
+      border-radius: 4px;
+      margin: 0 auto;
+      margin-top: -30px; }
+      .section4 .price-menu .button-order span {
+        margin: 0 70px; }
+        .section4 .price-menu .button-order span a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.125rem; }
+  .section4 .sale-detail {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%); }
+    .section4 .sale-detail span {
+      background: #c9c7c7;
+      margin: 40px 70px;
+      padding: 10px 40px;
+      border-radius: 4px; }
+      .section4 .sale-detail span a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem; }
+
+.section5 {
+  height: 216px;
+  background-image: url("images/bottom-fon.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative; }
+  .section5 div {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 11%; }
+
+footer {
+  height: 134px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin: 50px auto;
+  position: relative; }
+  footer span {
+    color: #BBBBBB;
+    position: absolute;
+    top: 35%;
+    left: 20%; }
+  footer span#footer_menu {
+    width: 510px;
+    position: absolute;
+    top: 24%;
+    left: 55%; }
+    footer span#footer_menu ul {
+      vertical-align: middle; }
+      footer span#footer_menu ul li {
+        display: inline-block;
+        list-style: none; }
+        footer span#footer_menu ul li a {
+          text-decoration: none;
+          color: #c9c7c7;
+          margin: 20%; }
+
+@media screen and (max-width: 1199px) {
+  .section5 div {
+    width: 75%;
+    top: 20%; }
+
+  footer span#footer_menu {
+    width: 390px; } }
+@media screen and (max-width: 991px) {
+  .main-section h1 {
+    top: 10%; }
+  .main-section h2:first-of-type {
+    top: 28%; }
+
+  .section3 {
+    height: 1800px; }
+    .section3 h2 {
+      top: 2%; }
+    .section3 h3 {
+      top: 8%; }
+      .section3 h3 .upper {
+        font-size: inherit; }
+    .section3 .buttons-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      top: 11%; }
+      .section3 .buttons-menu div {
+        align-self: center; }
+    .section3 .present {
+      top: 78%;
+      flex-direction: column;
+      width: 320px;
+      height: 370px; }
+      .section3 .present .image img {
+        height: 150px;
+        margin: auto; }
+      .section3 .present .text h4 {
+        font-size: 1.375rem;
+        line-height: 28px; }
+        .section3 .present .text h4 span.upper {
+          font-size: 1.375rem; }
+      .section3 .present p {
+        font-size: 1rem;
+        line-height: 20px; }
+        .section3 .present p span.upper {
+          font-size: 1.375rem; }
+
+  .section4 {
+    height: 1810px; }
+    .section4 h3 {
+      font-size: 1.5rem;
+      top: 2%; }
+      .section4 h3 span.upper {
+        font-size: 1.5rem; }
+    .section4 .price-menu {
+      width: unset;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      top: 12%; }
+      .section4 .price-menu .free {
+        margin: 7% 2%; }
+    .section4 .sale-detail {
+      bottom: 0%; }
+      .section4 .sale-detail span {
+        width: 130px; }
+
+  footer span {
+    left: 5%; }
+  footer span#footer_menu {
+    left: 45%; } }
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 14px; }
+
+  .section1 img {
+    left: 14%; }
+  .section1 span {
+    right: 14%; }
+
+  footer span {
+    font-size: 0.75rem; }
+  footer span#footer_menu {
+    width: 290px; }
+    footer span#footer_menu ul li a {
+      font-size: 0.75rem; }
+    footer span#footer_menu ul li a:last-of-type img {
+      height: 24px; } }
+
+/*# sourceMappingURL=main_style.css.map */
